@@ -296,7 +296,16 @@ no romper compatibilidad; ante cualquier diferencia, prevalece el frontmatter.
 
 ---
 
+### 13. Visión por Computadora y Organización Multimedia
+
+| Skill | Descripción | Estándares y Técnicas Clave | Artefactos |
+| :--- | :--- | :--- | :--- |
+| [**photoOrganizer**](photoOrganizer/SKILL.md) | Orquestación integral del servidor PhotOrganizer MCP para clasificación, clustering y deduplicación masiva de colecciones fotográficas y de video. | Biometría facial InsightFace (ArcFace 512-d), detección corporal YOLOv8 + piel YCrCb, clustering DBSCAN, Pareto ABC, verificación O(1) de manifiestos y los 7 invariantes canónicos de ruteo grupal con embeddings ilimitados. | Carpetas estructuradas por persona y `_Grupales/`, `manifest.json` con cabecera `total_files`, `embeddings.npy` y reportes JSON. |
+
+---
+
 ## 🧩 Anatomía de una Skill
+
 
 Cada skill dentro del repositorio implementa una estructura estandarizada de **Documentación Dual Obligatoria**:
 

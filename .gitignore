@@ -2,3 +2,5 @@ __pycache__/
 *.py[cod]
 clawscan-results/cvoptimizer/clawscan-static.json
 clawscan-results/artifact.json
+clawscan-results/photoOrganizer-scan.json
+clawscan-results/photoorganizer-scan/

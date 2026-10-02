@@ -1,4 +1,4 @@
-﻿{
+{
     "schema_version":  1,
     "aliases":  {
                     "apiDesign":  {
@@ -276,6 +276,15 @@
                     "typesafe-ai":  {
                                         "canonical_name":  "typesafe-ai",
                                         "skill_file":  "typesafeAi/SKILL.md"
-                                    }
+                                    },
+                    "photoOrganizer":  {
+                                           "canonical_name":  "photoOrganizer",
+                                           "skill_file":  "photoOrganizer/SKILL.md"
+                                       },
+                    "photo-organizer":  {
+                                            "canonical_name":  "photoOrganizer",
+                                            "skill_file":  "photoOrganizer/SKILL.md"
+                                        }
                 }
 }
+
